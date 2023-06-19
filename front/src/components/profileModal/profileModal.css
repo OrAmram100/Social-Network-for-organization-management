@@ -1,0 +1,104 @@
+
+.profileModalContainer{
+    flex: 3;
+    position:sticky;
+    top: 50px;
+    width: auto;
+}
+
+.infoInput{
+    background-color: transparent;
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.infoForm{
+    height: 600px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+}
+
+
+.infoButton{
+    width: 20%;
+    align-self: center;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e49758c7;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.lastNameInput,.countryInput,.confirmPasswordsInput{
+    background-color: transparent;
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.optionSelects{
+    width: 200px;
+    
+}
+
+.profile-picture{
+    align-items: center;
+    display: flex;
+}
+
+.selectCountry
+{
+    width: 200px;
+    margin-left: 10px;
+}
+
+.cover-photo{
+    align-items: center;
+    display: flex;
+}
+
+.delete-button{
+    margin-left: 5px;
+    width: 21px !important;
+    height: 21px !important;
+    color: rgba(255, 0, 0, 0.705);
+    cursor: pointer;
+
+}
+
+.editProfileImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.deleteText{
+    color: rgba(255, 0, 0, 0.705);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 2px;
+
+}
+
+.deleteFrame
+{
+    display: flex;
+    align-items: center;
+}
+
+

@@ -1,0 +1,71 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #e49758c7;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  font-family: 'MyFont', Georgia, 'Times New Roman', Times, serif;
+}
+
+.companyImg {
+  max-width: 700px;
+  max-height: 300px;
+  object-fit: contain;
+  margin-top: 1rem;
+}
+
+.orgHeader {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.aboutText {
+  max-width: 700px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-wrap: break-word; /* or 'anywhere' if available */
+}
+
+.aboutText p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  white-space: pre-wrap;
+  max-height: 300px; /* Set a maximum height to limit the vertical space */
+  overflow: auto; /* Add a scrollbar when content overflows */
+}
+
+.organizationDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.organizationDetails p {
+  margin: 0.5rem 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.credits {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-top: 10rem;
+}

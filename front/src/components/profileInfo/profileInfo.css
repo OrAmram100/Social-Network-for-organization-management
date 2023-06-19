@@ -1,0 +1,30 @@
+.cardInfo
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background-color: #e4975829;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 90%;
+}
+
+.infoHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.infoHead>div:hover{
+    cursor: pointer;
+}
+.info{
+    margin-bottom: 5px;
+
+}
+
+
+
+

@@ -1,0 +1,211 @@
+.comment {
+  width: max-content;
+  margin: 10px 0;
+  overflow-wrap: break-word; /* or 'anywhere' if available */
+  }
+  
+
+  .submitBtn{
+    display: block;
+    margin: 0 auto;
+    background-color: #e49758c7;
+    cursor: pointer;
+    margin-top: 20px;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #e49758c7;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .submitBtn:hover{
+    background-color: #f5a7679b;
+  }
+  .commentsWrapper {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #dad6d34b;
+    
+}
+
+.correct-commentsWrapper{
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgba(144, 238, 144, 0.603);
+}
+
+.commentVote {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.howtoRegOutlinedIcon{
+  height: 20px !important;
+  width: 20px !important;
+  color: gray;
+  cursor: pointer;
+
+}
+
+.howtoRegIcon{
+  height: 20px !important;
+  width: 20px !important;
+  cursor: pointer;
+
+}
+
+.howtoRegIcon:hover,.howtoRegOutlinedIcon:hover{
+  color: #e49758c7;
+
+}
+
+
+.voteCount {
+  margin-left: 10px;
+  font-weight: bold;
+}
+  
+  
+  .commentTop{
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .commentCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.moreVertIconComment
+{
+  top: 28px;
+  right: 10px;
+  border-radius: 5px;
+  padding: 8px;
+  z-index: 1;
+  display: flex; /* set display to flex */
+  justify-content: flex-end; /* horizontally align child elements to the right */
+
+}
+
+  
+  .commentImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .commentFrame{
+    padding-left: 50px;
+    
+  }
+  
+  .commentRight{
+    justify-content: flex-end;
+
+  }
+  
+  .commentText{
+   
+      padding: 2px;
+      border-radius: 20px;
+      max-width: 300px;
+      align-items: center;
+      
+  }
+
+  .itemIcon {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 16px !important;
+    height: 16px !important;
+  }
+  
+  .commentBottom{
+      font-size: 12px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+  }
+
+  .comment.own{
+    align-items: flex-end;
+    
+  }
+
+  .commentOptionsPopup{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    position: relative;
+    padding-bottom: 10px;
+    background-color: rgba(255, 253, 253, 0.978);
+    border-bottom: 1px dashed gray;
+    border: 1px #dadada76 solid;
+  }
+
+  .smallPopUpItem {
+    display: flex;
+    align-items: center;
+}
+
+  .textButtonPopup{
+    font-size: 15px;
+
+  }
+
+  .saveButtonComment {
+    position: absolute;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #e49758c7;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    margin-left: 300px;
+}
+
+.commentInput{
+  border: none;
+}
+.commentInput:focus {
+  outline: none;
+}
+
+.editPopupWindow {
+  position: absolute;
+  width: 100px;
+  z-index: 1;
+  bottom: -10px;
+}
+
+  .popupContainer {
+    position: relative;
+  }
+
+  .smallPopUpItem:hover {
+    color: #e49758c7;
+    cursor: pointer;
+}
+
+  .comment.own .commentText{
+    background-color: rgb(245, 241, 241);
+    color: black;
+    
+}

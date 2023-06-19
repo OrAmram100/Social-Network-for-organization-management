@@ -1,0 +1,107 @@
+.calendar-container{
+  height: 600px;
+  border-radius: 10px;
+  flex: 5.5;
+  width: 60%;
+  max-width: 1150px;
+
+
+}
+
+
+
+.fc-day:hover {
+  cursor: pointer;
+}
+
+.h3{
+  font-size: 18px;
+  color: #666;
+  text-align: left;
+}
+
+.calendarTitle{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #e49758c7;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: 'MyFont', Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.custom-dropdown {
+  width: 500px;
+  height: 300px;
+}
+
+
+.ant-btn-primary:hover {
+  border-color: #722ed1;
+}
+
+
+
+
+.attendanceWrapper{
+    width: 70%;
+    height: 70%;
+    justify-content: center;
+
+}
+
+.attendanceTable{
+    display: flex;
+}
+table{
+    margin-left: 0;
+  margin-right: 0;
+}
+body {
+    line-height: 1.6;
+    min-width: 990px;
+}
+
+.fc-event-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.calendar-cell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+th {
+    background-color: #e49758c7;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+td {
+    border-top: 1px solid #eee;
+    padding: 0.5em 1em;
+}
+
+input {
+    cursor: pointer;
+}
+.calendar-container
+{
+  margin-top: 48px;
+}
+
+.name-col {
+    text-align: left;
+}
+
+
+
+  
+  
+
+
+  
+

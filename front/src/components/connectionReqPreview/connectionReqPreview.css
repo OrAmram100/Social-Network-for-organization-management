@@ -1,0 +1,97 @@
+.request-preview {
+    height: max-content;
+    width: max-content;
+    padding: 10px;
+    z-index: 999;
+    
+  }
+  .request-preview-container {
+    position: relative;
+    display: flex;
+  }
+
+  .requestPreviewWrapper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  
+  .request-preview ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .connectionOffersH2{
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: gray;
+  }
+
+  .showMoreButtonInTopbar{
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .showMoreButtonInTopbar:focus {
+    outline: none;
+  }
+  
+  .showMoreButtonInTopbar:hover {
+    color: #e4975885;
+  }
+
+  .friend-offers-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  
+  .friend-offer-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .request-preview-li,.toMessanger{
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .toMessanger:hover{
+    background-color: #d6976448;
+    cursor: pointer;
+  }
+.request-preview hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid gray;
+}
+
+.requestTop{
+  color: inherit;
+  text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+  }
+  .requestImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  
+  

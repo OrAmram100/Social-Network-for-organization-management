@@ -1,0 +1,61 @@
+{
+    "name": "front",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.10.5",
+        "@fullcalendar/core": "^6.1.6",
+        "@fullcalendar/daygrid": "^6.1.6",
+        "@fullcalendar/interaction": "^6.1.6",
+        "@fullcalendar/react": "^6.1.6",
+        "@iconscout/react-unicons": "^1.1.6",
+        "@mantine/core": "^5.9.5",
+        "@mantine/hooks": "^5.9.5",
+        "@material-ui/core": "^4.12.4",
+        "@material-ui/icons": "^4.11.3",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "antd": "^5.4.6",
+        "axios": "^1.2.1",
+        "emoji-picker-react": "^4.4.7",
+        "jspdf": "^2.5.1",
+        "jspdf-autotable": "^3.5.28",
+        "react": "^18.2.0",
+        "react-autocomplete": "^1.8.1",
+        "react-dom": "^18.2.0",
+        "react-organizational-chart": "^2.2.0",
+        "react-router-dom": "^6.4.5",
+        "react-scripts": "5.0.1",
+        "react-select": "^5.7.0",
+        "socket.io-client": "^4.5.4",
+        "styled-components": "^5.3.9",
+        "timeago.js": "^4.0.2",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "proxy": "http://localhost:8082/api"
+}

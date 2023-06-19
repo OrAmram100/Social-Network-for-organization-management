@@ -1,0 +1,24 @@
+{
+  "name": "rapyd-request-signatures",
+  "version": "1.0.0",
+  "description": "When you send an HTTPS REST request to the Rapyd Payments platform, you must include specified header parameters, including a signature. These headers are required for both the production platform and the sandbox. The headers are not required in the response from your remote authorization server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RapydPayments/rapyd-request-signatures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RapydPayments/rapyd-request-signatures/issues"
+  },
+  "homepage": "https://github.com/RapydPayments/rapyd-request-signatures#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}

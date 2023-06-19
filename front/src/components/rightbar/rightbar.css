@@ -1,0 +1,297 @@
+.rightbar {
+    flex: 3.5;
+    height: 0;
+    position: sticky;
+    top: 50px;
+    width: 15%;
+    max-width: 25%;
+    
+}
+
+.topScoreText {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .scoreUserText {
+    font-size: 17px;
+    color: gray;
+  }
+  
+  .scoreUserTextName {
+    color: gray;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .scoreUserTextName:hover {
+    color: #e49758c7;
+  }
+  
+  .scoreUserTextIndex {
+    color: gray;
+  }
+
+  .scoreList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+.winnerCup {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+
+.winnersFrame {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+  }
+
+.topScoreText{
+    color: gray;
+}
+
+.winnerCup{
+    width: 40px !important;
+    height: 40px !important;
+    color: gold;
+}
+
+.rightbarWrapper {
+    padding: 20px 0 0 0;
+    /* top right bottom left*/
+}
+
+.birthdayContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.scoreContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  
+  .scoreImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .scoreFrame {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  
+  .scoreUserTextName {
+    font-size: 17px;
+    color: gray;
+  }
+  
+
+
+.scoreFrame{
+    
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    
+  }
+
+  .scoreUserContainer {
+    display: flex;
+    align-items: center;
+    transform: rotate(-45deg);
+  }
+
+.scoreWrapper{
+    display: flex;
+    align-items: center;
+  }
+
+.birthdayImg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.birthdayTextName{
+    font-size: 13px;
+    color: gray;
+
+}
+
+.birthdayTextName:hover {
+    color: #e49758c7;
+}
+
+
+.birthdayText {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+
+.birthdayProfileImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.rightbarAd {
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.rightbarTitle {
+    margin-top: 20px;
+}
+
+.rightbar {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.rightbarHr {
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.rightbarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightbarTitle {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rightbarInfo {
+    margin-bottom: 30px;
+}
+
+.rightbarInfoItem {
+    margin-bottom: 10px;
+}
+
+.rightbarInfoKey {
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rightbarInfoValue {
+    font-weight: 300;
+}
+
+.rightbarFollowings {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rightbarFollowing {
+    margin-left: 1px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.modalContent {
+  width: 400px;
+  max-height: 600px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.modalFriendsList {
+  margin-top: 20px;
+}
+
+.showMoreButtonInRightbar {
+  position: relative;
+  bottom: 14px;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: gray;
+  cursor: pointer;
+}
+
+
+.showMoreButtonInRightbar:focus {
+  outline: none;
+}
+
+.showMoreButtonInRightbar:hover {
+  color: #e4975885;
+}
+
+
+
+.rightbarFollowingImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    position: relative;
+    top: 7px;
+}
+
+.rightbarFollowButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #e49758c7;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500px;
+    cursor: pointer;
+}
+
+.rightbarFollowButton:focus {
+    outline: none;
+}
+
+.rightbarFollowButton:hover {
+  background-color: #e4975885;
+}
+
+.rightProfileImgContainer {
+    margin-right: 10px;
+    position: relative;
+}
+
+.rightbarFollowingName {
+    display: flex;
+    font-size: 12px;
+
+}

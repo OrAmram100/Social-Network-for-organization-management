@@ -1,0 +1,54 @@
+.comments {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+}
+
+.wrapper {
+    width: 100%;
+    overflow-y: scroll;
+    padding-right: 10px;
+    position: static;
+    height: 50%;
+    top: 500px;
+}
+
+.profileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.containerComments {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.text {
+    flex: 5;
+    padding: 10px;
+    border: 1px solid themed("border");
+    background-color: transparent;
+    color: themed("textColor");
+}
+
+.text:focus {
+    outline: none;
+    border: none;
+}
+
+.sendBtn {
+    border: none;
+    background-color: #e49758c7;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}

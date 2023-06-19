@@ -1,0 +1,18 @@
+
+
+.employeeHierarchy{
+    text-align: center;
+    flex: 10.5;
+    width: 70%;
+    max-width: 1150px;
+}
+
+
+h1{
+        font-size: 3rem;
+        font-weight: bold;
+        color: #e49758c7;
+        text-align: center;
+        font-family: 'MyFont', Georgia, 'Times New Roman', Times, serif;
+
+}

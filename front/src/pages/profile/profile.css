@@ -1,0 +1,74 @@
+.profile{
+    display: flex;
+    flex: 6.5;
+}
+
+.profileRight{
+    flex: 9;
+}
+
+.profileCover{
+    height: 320px;
+    position: relative;
+}
+
+
+.profileCoverImg{
+    margin-top: 50px;
+    max-height: 200px;
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+}
+.messageButton {
+    margin-top: 20px;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #e49758c7;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+.messageButton:hover{
+    background-color: #e4975885;
+
+  }
+  
+  
+.profileUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid white;
+}
+
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileInfoName{
+    font-size: 24px;
+}
+
+.profileInfoDesc{
+    font-weight: 300;
+}
+
+.profileRightBottom{
+    display: flex;
+}

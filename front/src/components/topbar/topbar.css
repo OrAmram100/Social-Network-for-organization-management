@@ -1,0 +1,428 @@
+.topbarContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #e49758c7;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    /*going be over everything*/
+}
+
+.settingsPopup {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .topBarForm{
+    height: 300px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .topBarInput{
+    background-color: transparent;
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  
+
+.AddCEOButton{
+    margin-top: 15px;
+    width: 25%;
+    align-self: center;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e49758c7;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.editHeader{
+    color: #e49758c7;
+}
+
+  .scoreSpan{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    color:"white";
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+    right: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+  
+  .settingsPopup-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .settingsPopup-option {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .settingsPopup-option:hover{
+    background-color: #e5e5e5;
+  }
+
+  .searchbar:hover {
+    background-color: #e5e5e5;
+  }
+
+  .searchInput:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .intro{
+    font-size: 15px;
+    font-weight: 290;
+  }
+.logo {
+    font-size: 35px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.topbarLeft {
+    flex: 3;
+}
+
+.logo:hover {
+    color: #e5e5e5;
+}
+
+.topbarCenter {
+    flex: 5;
+}
+
+.searchbar {
+    width: 80%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+
+.searchInput {
+    border: none;
+    width: 70%;
+    background-color: inherit;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.topbarIcons {
+    display: flex;
+    padding-left: 40%;
+    position: relative;
+    align-items: center;
+    margin-left: -50px;
+}
+
+.topbarScoreIcon {
+    color: "white";
+    margin-right: 15px;
+    font-size: 40px !important;
+    font-weight: bold!important;
+}
+
+.topbarIconItem {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.topbarScoreItem{
+    margin-right: 25px;
+    position: relative;
+}
+
+.popUpTopBarItemIcon {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.topbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topbarExitBadge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popUpProfileItem:hover,
+.topBarProfileImg:hover,
+.topbarIcon:hover,
+.buttonIconItem:hover {
+    color: #f3d9c395;
+}
+
+.topbarProfileImg:hover,
+.nButton:hover {
+    background-color: #d69764c7;
+}
+
+.topbarProfileImg,
+.nButton {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .topbarLink {
+        display: none;
+    }
+}
+
+.wrapperMessageNotify,.wrapperPostNotify {
+    position: absolute;
+    width: 100px;
+    align-items: center;
+    right: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+       
+}
+
+.ConnectionReqNotifications{
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    background-color: white;
+    width: max-content;
+    align-items: center;
+    right: 30px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.wrapperPostNotifyContainer{
+    padding: 5px;
+    margin-left: 200px;
+}
+
+.wrapperMessageNotifyContainer,.wrapperRequestNotifyContainer{
+    padding: 5px;
+}
+
+.topbarIcon {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.resultSearch {
+    padding-left: 150px;
+}
+
+.resultSearchText {
+    color: #d69764c7;
+}
+
+.search {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    background-color: rgba(255, 253, 253, 0.936);
+    margin-top: 30px;
+    width: 30%;
+    overflow-y: scroll;
+}
+
+.displayUsers {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.searchWrapper {
+    align-items: center;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.searchUsername {
+    font-weight: 500;
+}
+
+.searchProfileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    position: relative;
+    top: 10px;
+}
+
+
+.notification {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.popUpProfileImg {
+    position: absolute;
+    width: 200px;
+    top: 50px;
+    align-items: start;
+    right: 0;
+    background-color: rgba(255, 253, 253, 0.978);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.profilePopUpHr {
+    height: 1px;
+    margin: 20px;
+    display: block;
+    background-color: gray;
+    border: none;
+    width: 80%;
+}
+
+.hrPopUpProfileItem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.hrPopUpProfileItem:hover {
+    color: #e49758; /* Change icon color on hover */
+  }
+
+.popUpProfileItem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.topBarProfileImg {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    top: 10px;
+}
+
+.popUpWrapper {
+    right: 0;
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.popUpProfileText {
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    padding-right: 50px;
+    background-color: rgba(255, 253, 253, 0.978);
+    border: none;
+}
