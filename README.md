@@ -10,6 +10,6 @@ In addition, we implemented the construction of the company's hierarchical tree 
 In the final stage, we implemented an algorithm based on the Q-learning principle to find the best solution for questions asked within the system. Users are rewarded with points for proposing the best solution (gamification).
 
 The server-side was written in JavaScript using the js.Node runtime environment.
-The client-side was written in JavaScript using the js library, which was implemented to design the website according to the principles of "Gestalt". The goal was to provide a simple interface that any user could use easily.
+The client-side was written in JavaScript using the React.js library, which was implemented to design the website according to the principles of "Gestalt". The goal was to provide a simple interface that any user could use easily.
 The chosen database is MongoDB, a non-relational database.
 The development environment we used to develop the project is VsCode.
