@@ -1,4 +1,4 @@
-# social_network, final project
+# Social Network for organization management, final project
 by Or Amram and Roni Khizverg
 
 The system is a platform that offers a private social network for organizations that will help the management of the organization to spread internal information of the organization such as special events, successes, etc.  In addition, to take care of social life and close communication between the organization's employees themselves and the management.
